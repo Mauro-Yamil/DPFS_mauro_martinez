@@ -2,8 +2,6 @@
 
 <div align="center">
   
-![GreenBite Banner](https://via.placeholder.com/800x200/2e7d32/ffffff?text=GreenBite+%7C+Alimentos+Saludables+y+Sostenibles)
-
 **Nutrición consciente para un mundo mejor**
 
 </div>
@@ -40,12 +38,12 @@
 
 ## 👥 Audiencia Objetivo
 ### 🎯 Perfil del Cliente
-![Target Audience](https://via.placeholder.com/400x200/43a047/ffffff?text=Consumidores+Conscientes)
 
 - **Demográfico**:  
-  👩‍💼 Personas 25-45 años  
+  👩‍💼 Personas 25-55 años  
   🏙️ Residentes urbanos y suburbanos  
-  👨‍👩‍👧‍👦 Familias preocupadas por su alimentación  
+  👨‍👩‍👧‍👦 Familias preocupadas por su alimentación
+  📦 Mayoristas  
 
 - **Intereses**:  
   🥗 Alimentación saludable  
@@ -70,10 +68,9 @@
 ## ✍️ Descripción Personal
 ```javascript
 const developer = {
-  name: "[Tu Nombre]",
+  name: "[Mauro Martinez]",
   role: "Full Stack Developer",
-  skills: ["React", "Node.js", "MongoDB", "Diseño UX"],
-  passion: "Tecnología + Alimentación Saludable",
+  passion: "Tecnología + Innovacion + Programacion",
   quote: "Creando soluciones digitales para una alimentación más consciente"
 };
 ```
@@ -93,9 +90,3 @@ const developer = {
 | **Misha Rastrera** | [misharastrera.com](https://www.misharastrera.com) | ♻️ Enfoque sostenible<br>🏭 Productos de pequeños productores<br>💚 Comunicación auténtica |
 
 ---
-
-<div align="center">
-  
-![Footer](https://via.placeholder.com/800/1b5e20/ffffff?text=GreenBite+%7C+Healthy+Living++%7C+Sustainable+Choices)
-
-</div>
