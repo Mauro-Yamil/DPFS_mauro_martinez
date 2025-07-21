@@ -90,3 +90,9 @@ const developer = {
 | **Misha Rastrera** | [misharastrera.com](https://www.misharastrera.com) | ♻️ Enfoque sostenible<br>🏭 Productos de pequeños productores<br>💚 Comunicación auténtica |
 
 ---
+
+## 🎨 Prototipo del Sprint 1
+
+Enlace para ver el wireframe del proyecto desarrollado en Figma:
+
+👉 [Sprint1Wireframe - Figma](https://www.figma.com/design/jr2EHbDBHZBXPiCvfPcTo1/Sprint1Wireframe?node-id=1-2&t=cU1ZQ4XThQuCYd7o-1)
