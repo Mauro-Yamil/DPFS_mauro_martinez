@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Producto | GreenBite</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/product-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <h1><span class="green">Green</span><span class="bite">Bite</span></h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#popular-products">Productos</a></li>
+                    <li><a href="#contact-section">Contacto</a></li>
+                    <li><a href="productCart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="login.html">Ingresar</a></li>
+                    <li><a href="register.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+    <main class="product-detail-container">
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="index.html">Inicio</a>
+                <span>/</span>
+                <a href="#products">Productos</a>
+                <span>/</span>
+                <span id="current-product">Cargando...</span>
+            </nav>
+
+            <div class="product-detail-grid">
+                <!-- Galería de imágenes -->
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="" alt="Imagen del producto" id="main-product-image">
+                    </div>
+                    <div class="thumbnail-container" id="thumbnail-container">
+                        <!-- Las miniaturas se generarán con JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Información del producto -->
+                <div class="product-info">
+                    <span class="product-badge" id="product-badge">Nuevo</span>
+                    <h1 id="product-title">Cargando producto...</h1>
+                    
+                    <div class="product-meta">
+                        <span class="product-code" id="product-code">Código: GB-XXXX</span>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span id="review-count">(0 reseñas)</span>
+                        </div>
+                    </div>
+
+                    <div class="product-price">
+                        <span class="current-price" id="current-price">$0</span>
+                        <span class="old-price" id="old-price"></span>
+                        <span class="discount" id="discount-badge"></span>
+                    </div>
+
+                    <div class="product-description">
+                        <p id="product-description">Descripción del producto...</p>
+                        <ul class="features-list" id="features-list">
+                            <!-- Características se llenarán con JS -->
+                        </ul>
+                    </div>
+
+                    <div class="product-variants" id="product-variants">
+                        <!-- Variantes se generarán con JS -->
+                    </div>
+
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" value="1" min="1" max="10" class="qty-input">
+                            <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="btn-add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Añadir al carrito
+                        </button>
+                        <button class="btn-wishlist">
+                            <i class="far fa-heart"></i> Guardar
+                        </button>
+                    </div>
+
+                    <div class="product-details">
+                        <div class="detail-item">
+                            <h3><i class="fas fa-truck"></i> Envío</h3>
+                            <p>Envío gratuito en compras mayores a $5.000. Despacho en 24-48 horas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pestañas de información -->
+            <div class="product-tabs">
+                <ul class="tabs-header">
+                    <li class="active" data-tab="description">Descripción</li>
+                    <li data-tab="ingredients">Ingredientes</li>
+                    <li data-tab="nutrition">Información Nutricional</li>
+                    <li data-tab="reviews">Reseñas</li>
+                </ul>
+                <div class="tabs-content">
+                    <div id="description" class="tab-pane active">
+                        <h2 id="description-title">Descripción del producto</h2>
+                        <p id="description-content">Cargando descripción...</p>
+                        <h3>Modo de preparación:</h3>
+                        <ol id="preparation-steps">
+                            <!-- Pasos de preparación -->
+                        </ol>
+                    </div>
+                    <div id="ingredients" class="tab-pane">
+                        <h2>Ingredientes</h2>
+                        <p id="ingredients-content">Cargando ingredientes...</p>
+                        <p><strong>Alérgenos:</strong> <span id="allergens-info"></span></p>
+                    </div>
+                    <div id="nutrition" class="tab-pane">
+                        <h2>Información Nutricional</h2>
+                        <p id="nutrition-serving-size">Porción de 100g:</p>
+                        <table class="nutrition-table">
+                            <tbody id="nutrition-facts">
+                                <!-- Datos nutricionales -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="reviews" class="tab-pane">
+                        <h2>Reseñas de Clientes</h2>
+                        <div id="reviews-container">
+                            <!-- Reseñas se cargarán aquí -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Productos relacionados -->
+            <section class="related-products">
+                <h2>Productos Relacionados</h2>
+                <div class="products-grid" id="related-products">
+                    <!-- Productos relacionados se cargarán con JS -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="contact-section">
+        <!-- Footer igual que en index.html -->
+    </footer>
+
+    <script src="js/product-detail.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mainNav = document.querySelector('.main-nav');
+            
+            menuToggle.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
