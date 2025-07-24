@@ -1,4 +1,3 @@
-// Base de datos de productos (ahora con los 4 productos de tu HTML)
 const productos = {
     '1': {
         id: '1',
@@ -182,7 +181,6 @@ function cargarProducto() {
     // Actualizar el título de la página
     document.title = `${producto.nombre} | GreenBite`;
     
-    // Actualizar migas de pan
     document.getElementById('current-product').textContent = producto.nombre;
     
     // Actualizar información básica
