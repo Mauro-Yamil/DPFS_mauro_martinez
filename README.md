@@ -96,3 +96,9 @@ const developer = {
 Enlace para ver el wireframe del proyecto desarrollado en Figma:
 
 👉 [Sprint1Wireframe - Figma](https://www.figma.com/design/jr2EHbDBHZBXPiCvfPcTo1/Sprint1Wireframe?node-id=1-2&t=cU1ZQ4XThQuCYd7o-1)
+
+## 🚀 Tablero Ágil - Navegando el Sprint 3
+
+¡Mapa de ruta para convertir GreenBite en una experiencia dinámica! 
+
+[![Tablero Trello Sprint 3](https://img.shields.io/badge/📋-Ver_Tablero_en_Trello-blue?style=for-the-badge&logo=trello&logoColor=white)](https://trello.com/invite/b/687e9f0a41ff8131a0ef20ea/ATTI25d09348af49ed1937bb5604c584a095B35D146A/sprint3)
