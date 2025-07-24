@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras | GreenBite</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/product-cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Green<span class="green">Bite</span></h1>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html#inicio">Inicio</a></li>
+                    <li><a href="index.html#productos">Productos</a></li>
+                    <li><a href="index.html#nosotros">Nosotros</a></li>
+                    <li><a href="index.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="cart-icon">
+                    <a href="productCart.html"><i class="fas fa-shopping-cart"></i></a>
+                    <span class="cart-count">3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Inicio</a> / <span>Carrito de Compras</span>
+        </div>
+
+        <h1>Tu Carrito</h1>
+
+        <div class="cart-container">
+            <div class="cart-items">
+                <div class="cart-item">
+                    <div class="cart-item-image">
+                        <img src="Imagenes/Milanesasdesoja.png" alt="Milanesas de Soja">
+                    </div>
+                    <div class="cart-item-details">
+                        <h3>Milanesas de Soja</h3>
+                        <p>Código: GB-MS-001</p>
+                        <p class="price">$1,200.00</p>
+                        <div class="item-actions">
+                            <div class="quantity-selector">
+                                <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                                <input type="number" class="qty-input" value="1" min="1" max="10">
+                                <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                            </div>
+                            <button class="btn-remove"><i class="fas fa-trash"></i> Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <div class="cart-item-image">
+                        <img src="Imagenes/barraenergetica.png" alt="Barritas Energéticas">
+                    </div>
+                    <div class="cart-item-details">
+                        <h3>Barritas Energéticas</h3>
+                        <p>Código: GB-BE-003</p>
+                        <p class="price">$1,500.00</p>
+                        <div class="item-actions">
+                            <div class="quantity-selector">
+                                <button class="qty-btn minus"><i class="fas fa-minus"></i></button>
+                                <input type="number" class="qty-input" value="2" min="1" max="10">
+                                <button class="qty-btn plus"><i class="fas fa-plus"></i></button>
+                            </div>
+                            <button class="btn-remove"><i class="fas fa-trash"></i> Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-summary">
+                <h2>Resumen de Compra</h2>
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span>$4,200.00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Envío</span>
+                        <span>$500.00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span>$4,700.00</span>
+                    </div>
+                </div>
+                <button class="btn-checkout">Proceder al Pago</button>
+                <a href="index.html" class="continue-shopping">Seguir comprando</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h3>GreenBite</h3>
+                <p>Alimentos saludables y sustentables</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>info@greenbite.com</p>
+                <p>+54 11 1234-5678</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/productCart.js"></script>
+</body>
+</html>

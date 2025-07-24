@@ -95,6 +95,10 @@ header {
     color: var(--dark);
 }
 
+.main-nav {
+    margin-left: auto; /* Empuja la nav a la derecha */
+    margin-right: 2rem;
+}
 .main-nav ul {
     display: flex;
     list-style: none;
